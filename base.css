@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 100px;
+    place-items: left;
+    background-color: rgb(99, 56, 240);
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    text-align: center;
+    color: white;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#texto {
+    text-align: justify;
+}
+
+#cabecalho {
+    text-align: center;
+    text-decoration: double;
+    color: white;
+    font-size: 42pt;
+}
+
+#fotos {
+    float: right;
+    height: 150px;
+}
+
+table {
+    border-style: double;
+    width: 550px;
+     
+    }
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+}
+
+tr {
+    
+    background-color: #f1f1f1;
+    font-size: 12pt;
+    
+}
+
+
